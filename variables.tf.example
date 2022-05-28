@@ -1,0 +1,9 @@
+variable "bucket-name" {
+  description = "new-s3-bucket-for-tf-backend"
+}
+variable "dynamodb-table-name" {
+  description = "new-dynamodb-for-tf-state-locks"
+}
+variable "aws-region" {
+  description = "us-east-1"
+}
